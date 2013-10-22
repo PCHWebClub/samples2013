@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.abutton {
+   border-top: 1px solid #ff0000;
+   background: #575757;
+   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#575757));
+   background: -webkit-linear-gradient(top, #000000, #575757);
+   background: -moz-linear-gradient(top, #000000, #575757);
+   background: -ms-linear-gradient(top, #000000, #575757);
+   background: -o-linear-gradient(top, #000000, #575757);
+   padding: 2px 4px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 19px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.abutton:hover {
+   border-top-color: #fa0000;
+   background: #fa0000;
+   color: #000000;
+   }
+.abutton:active {
+   border-top-color: #1b435e;
+   background: #FFF;
+   }

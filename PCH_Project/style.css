@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	min-height:100%;
+}
+body {
+	background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #ff0000 25%, #ff0000 40%, #9b0084 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(25%,#ff0000), color-stop(40%,#ff0000), color-stop(100%,#9b0084)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000000 0%,#ff0000 25%,#ff0000 40%,#9b0084 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000000 0%,#ff0000 25%,#ff0000 40%,#9b0084 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000000 0%,#ff0000 25%,#ff0000 40%,#9b0084 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #000000 0%,#ff0000 25%,#ff0000 40%,#9b0084 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#9b0084',GradientType=0 ); /* IE6-9 */
+}
+#container {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 1000px;
+	height: 815px;
+	z-index: 1;
+}
+#header {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	width: 980px;
+	height: 75px;
+	z-index: 3;
+}
+#navigation {
+	position: absolute;
+	left: 10px;
+	top: 90px;
+	width: 980px;
+	height: 25px;
+	z-index: 4;
+}
+#content {
+	position: absolute;
+	left: 10px;
+	top: 120px;
+	width: 960px;
+	height: 600px;
+	z-index: 5;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	overflow-y: scroll;
+}
+#content1 {
+	position: absolute;
+	left: 10px;
+	top: 120px;
+	width: 960px;
+	height: 600px;
+	z-index: 5;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+#footer {
+	position: absolute;
+	left: 10px;
+	top: 720px;
+	width: 980px;
+	height: 35px;
+	z-index: 6;
+}
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+}
+p{
+	color:#FFF;
+}
+a:visited {
+    color: #FFF;
+}
+a:hover {
+    color: #FF0;
+}
+a:active {
+    color: #FFF;
+}
+.background
+   {
+   position:absolute;
+   top:120px;
+   left:10px;
+   width:960px;
+   height:605px;
+   background-color:#FFF;
+   z-index:2;
+   /* These three lines are for transparency in all browsers. */
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+   filter: alpha(opacity=80);
+   opacity:.8;
+   }
